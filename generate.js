@@ -75,3 +75,4 @@ const banners = {
 for (const [name, id] of Object.entries(banners)) {
   fs.writeFileSync(path.join(__dirname, name + '.svg'), template(id));
 }
+const fs = require('fs');const path = require('path');const template = id => `<svg viewBox="0 0 800 130" xmlns="http://www.w3.org/2000/svg">  <style>@namespace svg url(http://www.w3.org/2000/svg
